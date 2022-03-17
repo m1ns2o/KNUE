@@ -1,0 +1,22 @@
+.menu{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.google{
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    margin: 100px 0;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-image: url(back.jpg);
+    background-size: cover;
+}
