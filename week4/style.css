@@ -1,0 +1,54 @@
+div {
+    border: 1px gray solid;
+    text-align: center;
+}
+
+.top_ad {
+    height: 3em;
+}
+
+.brand_logo {
+    display: flex;
+}
+
+.logo {
+    flex: 3;
+}
+
+.search {
+    flex: 5;
+}
+
+.mypage {
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav {
+    display: flex;
+}
+
+.item {
+    flex: 1;
+}
+
+.main_ad {
+    height: 15em;
+}
+
+.recommend { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub_item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sub_item > div {
+    height: 10em;
+    width: 23%;
+}

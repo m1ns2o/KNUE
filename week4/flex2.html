@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex2</title>
+
+    <style>
+        div {
+            border: 1px gray solid;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .item1 {
+            order: 3;
+            flex: 2;
+        }
+
+        .item2 {
+            order: 2;
+            flex: 5;
+        }
+
+        .item3 {
+            order: 1;
+            flex: 3;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+    </div>
+</body>
+</html>
